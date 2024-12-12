@@ -7,6 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//builder.Services.AddRouting((route) => route.LowercaseUrls());
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
